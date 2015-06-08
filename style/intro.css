@@ -1,0 +1,323 @@
+html {
+background: #f0f0f9;
+font-size: 62.5%;
+}
+.mask {
+	background: rgba(0, 0, 0, .45);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	bottom: 0px;
+	right: 0px;
+	display: block;
+}
+.alertWindow {
+	position: fixed;
+	top: 10%;
+	width: 280px;
+	margin-left: -140px;
+	left: 50%;
+	z-index: 100;
+	background: #f9f9f9;
+	display: block;
+	text-align: left;
+}
+.alertWindowTitle {
+	background: #ba071c;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	padding-left: 15px;
+	text-align: left;
+}
+.alertWindowContent {
+	padding: 20px;
+	font-family: '微软雅黑';
+	margin: 0 auto;
+	text-align: center;
+}
+.alertWindowContent p {
+	text-align: left;
+}
+#closeX {
+	float: right;
+}
+.change3 {
+	border: 1px solid #d6486b;
+	background: #feeeb8;
+	padding: 6px 20px;
+	font-size: 16px;
+	color: #e3587a;
+	border-radius: 2px;
+	font-family: '微软雅黑';
+	margin-right: 5px;
+}
+/* 分割线 */
+.borderStyle {
+	border: 2px dashed #dadada;
+	border-right: 0px;
+	border-left: 0px;
+	height: 5px;
+	margin-top: 10px;
+}
+.alertWindow2 {
+	position: fixed;
+	top: 30%;
+	width: 320px;
+	z-index: 1000000000000;
+	display: none;
+	background: #ccc;
+	max-width: 420px;
+	text-align: left;
+	left: 50%;
+	margin-left: -160px;
+}
+.alertWindow2 h2 {
+	display: block;
+	background: #ff942c;
+	;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+.alertWindow2 .alertcontent2 {
+	height: 60%;
+	background: #fff;
+	padding: 20px;
+}
+.alertWindow2 .alertcontent2 p {
+	line-height: 60px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+.fx {
+	padding: 5%;
+}
+.fx1 {
+	width: 93%;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 5%;
+}
+.alertcontent2 a:link,
+.alertcontent2 a:visited {
+	display: block;
+	color: #333;
+	font-family: "微软雅黑";
+}
+.xz {
+	position: absolute;
+	z-index: 999999999999999999;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+}
+/*成功*/
+.successsWindow {
+	position: fixed;
+	top: 10%;
+	width: 280px;
+	margin-left: -140px;
+	left: 50%;
+	z-index: 100;
+	background: #ffffff;
+	display: block;
+	text-align: left;
+}
+.successsWindowTitle {
+	background: #ffffff;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	padding-left: 15px;
+	text-align: left;
+}
+.successsWindowContent {
+	padding: 20px;
+	font-family: '微软雅黑';
+	margin: 0 auto;
+	text-align: center;
+}
+.successsWindowContent p:nth-of-type(1) {
+	text-align: left;
+	color: #777777;
+	border-bottom:1px dashed #777777;
+	padding: 10px 0;
+}
+#closeX {
+	float: right;
+}
+.winBtn {
+	border: 1px solid #a6ca83;
+	background: #5fa020;
+	padding: 6px 20px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 4px;
+	font-family: '微软雅黑';
+	margin-right: 5px;
+}
+#coinlist{
+	
+
+}
+#coinlist{}
+#coinlist li{ border-bottom:1px dashed #e8e8e8; padding:5px; }
+#coinlist li a{display:-webkit-box; text-align: left; width: 100%;}
+#coinlist li img{ width: 83px;}
+
+#wrap {
+max-width: 640px;
+margin: 0 auto;
+overflow: hidden;
+background: #f6f6f6;
+position: relative;
+width: 100%;
+}
+.clear{ clear: both;}
+.title{ font-size: 14px; color: #ff7800;}
+.desc{ font-size: 14px; color:#777777; padding-top: 2 px; font-size: 12px;}
+#awardCont{ padding:5px; -webkit-box-flex:1;}
+#time{ padding-left:0px;}
+.msg-mask {
+      background: rgba(0, 0, 0, .5);
+      height: 100%;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9;
+      display: none;
+  }
+  .msg-box {
+      background: #fff;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 4px;
+      left: 50%;
+      margin-left: -150px;
+      margin-top: -87px;
+      position: fixed;
+      top: 50%;
+      width: 300px;
+      z-index: 10;
+      /*display: none;*/
+  }
+  .msg-header {
+      height: 34px;
+      position: relative;
+  }
+  .msg-title {
+      color: #333;
+      display: block;
+      font-size: 1.6rem;
+      line-height: 50px;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: middle;
+  }
+  .msg-box-confirm .msg-header .btn-close {
+      background: #ea0d27;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 4px 0 30px;
+      border-style: solid;
+      border-color: #c2c6c2;
+      border-width: 0 0 1px 1px;
+      color: #fff;
+      display: block;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      -webkit-tap-highlight-color: transparent;
+      top: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 30px;
+  }
+  .icon-close {
+      background: url(http://p3.qhimg.com/t0189f2346fede80c4f.png) no-repeat 0 0;
+      background-size: 10px auto;
+      display: block;
+      height: 10px;
+      margin-top: 7px;
+      margin-left: 12px;
+      width: 10px;
+  }
+  .msg-box .content {
+      color: #888999;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin: 22px auto;
+  }
+  .msg-box .footer {
+      border-top: 1px solid #ebebeb;
+  }
+  .msg-box-confirm .btn-group {
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 0 4px 4px;
+  }
+  .msg-box .msg, .msg-box .extra-msg {
+      color: #333;
+      text-align: center;
+  }
+  .msg-box .content {
+      color: #888999;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin: 22px auto;
+  }
+  .msg-box-confirm .btn {
+      border: 0;
+      box-sizing: border-box;
+      display: inline-block;
+      font-size: 1.6rem;
+      height: 50px;
+      line-height: 49px;
+      vertical-align: middle;
+  }
+  .msg-box-confirm .btn-group {
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 0 4px 4px;
+  }
+  .msg-box-confirm .btn-ok {
+      background: #fff;
+      border-radius: 0 0 4px 0;
+      color: #19c108;
+      box-sizing: border-box;
+      display: inline-block;
+      width: 50%;
+  }
+  .msg-box-confirm .btn-cancel {
+      background: #fff;
+      border-right: 1px solid #ebebeb;
+      border-radius: 0 0 0 4px;
+      color: #333;
+      width: 50%;
+      float: left;
+  }
+  .footer {
+color: #272a36;
+font-size: 1rem;
+text-align: center;
+}

@@ -1,0 +1,400 @@
+  html {
+      background: #f0f0f9;
+      font-size: 62.5%;
+  }
+  body {
+      background: #ae0f0f;
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+      max-width: 640px;
+      margin: 0 auto;
+      font-family: '微软雅黑';
+  }
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  ul, dd {
+      margin: 0;
+      padding: 0
+  }
+  .prize-box {
+      background-color:#ae0f0f;
+     
+  }
+  .turntable {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      position: relative;
+  }
+  .prize-content {
+      background-image: url(../images/pan.png);
+      background-size: 292px auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 292px;
+      margin: 0 auto;
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      width: 292px;
+  }
+  .pointer .text {
+      color: #de330c;
+      display: block;
+      font-size: 1.2rem;
+      height: 40px;
+      margin: 38px auto 0;
+      text-align: center;
+      width: 60px;
+  }
+  .pointer:active {
+      background-position: -103px 0;
+  }
+  .pointer {
+      background: url(../images/pointer.png) no-repeat 0 0;
+      background-size: auto 109px;
+      display: block;
+      height: 109px;
+      left: 50%;
+      margin-left: -51px;
+      position: absolute;
+      -webkit-tap-highlight-color: transparent;
+      top: 122px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 104px;
+      cursor: pointer;
+  }
+  .lottery-news {
+      color: #fff;
+      font-size: 1.5rem;
+
+      position: relative;
+      text-align: center;
+  }
+  #content{overflow: hidden;}
+  .lottery-news .title {
+      color: #ea0d27;
+      font-size: 1.4rem;
+      height: 30px;
+      left: 50%;
+      line-height: 30px;
+      margin-left: -141px;
+      position: absolute;
+      top: 0;
+      vertical-align: middle;
+      width: 283px;
+      z-index: 2;
+  }
+  .lottery-news .list {
+    border: 2px solid #ff2020;
+    background: #400101;
+    height:30px;
+    overflow: hidden;
+    position: relative;
+  }
+  .pointer .text span {
+      color: #333;
+      font-size: 1.2rem
+  }
+  .lottery-news li .username {
+      max-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-break: break-all;
+      padding-right:30px;
+      padding-left:50px;
+      display: inline-block;
+      text-align: center;
+      float: left;
+  }
+  .lottery-news ul {
+      border-bottom-left-radius: 170px 70px;
+      border-bottom-right-radius: 170px 70px;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      -webkit-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0)
+  }
+  .lottery-news li {
+      color: #ffd119;
+      font-size: 1.5rem;
+      overflow: hidden
+  }
+
+  .msg-mask {
+      background: rgba(0, 0, 0, .5);
+      height: 100%;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9;
+      display: none;
+  }
+  .msg-box {
+      background: #fff;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 4px;
+      left: 50%;
+      margin-left: -150px;
+      margin-top: -87px;
+      position: fixed;
+      top: 50%;
+      width: 300px;
+      z-index: 10;
+      /*display: none;*/
+  }
+  .msg-header {
+      height: 34px;
+      position: relative;
+  }
+  .msg-title {
+      color: #333;
+      display: block;
+      font-size: 1.6rem;
+      line-height: 50px;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: middle;
+  }
+  .msg-box-confirm .msg-header .btn-close {
+      background: #ea0d27;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 4px 0 30px;
+      border-style: solid;
+      border-color: #c2c6c2;
+      border-width: 0 0 1px 1px;
+      color: #fff;
+      display: block;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      -webkit-tap-highlight-color: transparent;
+      top: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      width: 30px;
+  }
+  .icon-close {
+      background: url(http://p3.qhimg.com/t0189f2346fede80c4f.png) no-repeat 0 0;
+      background-size: 10px auto;
+      display: block;
+      height: 10px;
+      margin-top: 7px;
+      margin-left: 12px;
+      width: 10px;
+  }
+  .msg-box .content {
+      color: #888999;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin: 22px auto;
+  }
+  .msg-box .footer {
+      border-top: 1px solid #ebebeb;
+  }
+  .msg-box-confirm .btn-group {
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 0 4px 4px;
+  }
+  .msg-box .msg, .msg-box .extra-msg {
+      color: #333;
+      text-align: center;
+  }
+  .msg-box .content {
+      color: #888999;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin: 22px auto;
+  }
+  .msg-box-confirm .btn {
+      border: 0;
+      box-sizing: border-box;
+      display: inline-block;
+      font-size: 1.6rem;
+      height: 50px;
+      line-height: 49px;
+      vertical-align: middle;
+  }
+  .msg-box-confirm .btn-group {
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      border-radius: 0 0 4px 4px;
+  }
+  .msg-box-confirm .btn-ok {
+      background: #fff;
+      border-radius: 0 0 4px 0;
+      color: #19c108;
+      box-sizing: border-box;
+      display: inline-block;
+      width: 50%;
+  }
+  .msg-box-confirm .btn-cancel {
+      background: #fff;
+      border-right: 1px solid #ebebeb;
+      border-radius: 0 0 0 4px;
+      color: #333;
+      width: 50%;
+      float: left;
+  }
+  .footer {
+      color: #272a36;
+      font-size: 1rem;
+      text-align: center;
+  }
+  .auto-rotate {
+      -webkit-animation: rotate .3s linear infinite;
+      -moz-animation: rotate .3s linear infinite;
+      -ms-animation: rotate .3s linear infinite;
+      animation: rotate .3s linear infinite
+  }
+  @-webkit-keyframes rotate {
+      from {
+          -webkit-transform: rotate(0deg)
+      }
+      to {
+          -webkit-transform: rotate(360deg)
+      }
+  }
+  @-moz-keyframes rotate {
+      from {
+          -moz-transform: rotate(0deg)
+      }
+      to {
+          -moz-transform: rotate(360deg)
+      }
+  }
+  @-ms-keyframes rotate {
+      from {
+          -ms-transform: rotate(0deg)
+      }
+      to {
+          -ms-transform: rotate(360deg)
+      }
+  }
+  @keyframes rotate {
+      from {
+          transform: rotate(0deg)
+      }
+      to {
+          transform: rotate(360deg)
+      }
+  }
+  @-webkit-keyframes roll {
+      from {
+          -webkit-transform: translateY(0);
+      }
+      to {
+          -webkit-transform: translateY(-174px);
+      }
+  }
+  .auto-roll {
+      -webkit-animation: roll 8s linear infinite;
+      -moz-animation: roll 8s linear infinite;
+      -ms-animation: roll 8s linear infinite;
+      animation: roll 8s linear infinite
+  }
+  /*成功弹窗*/
+  /*成功*/
+  
+  .successsWindow {
+      position: fixed;
+      top: 10%;
+      width: 280px;
+      margin-left: -140px;
+      left: 50%;
+      z-index: 100;
+      background: #ffffff;
+      display: block;
+      text-align: left;
+  }
+  .successsWindowTitle {
+      background: #ffffff;
+      height: 42px;
+      line-height: 42px;
+      font-size: 16px;
+      color: #ffffff;
+      font-family: '微软雅黑';
+      font-weight: normal;
+      padding-left: 15px;
+      text-align: left;
+  }
+  .successsWindowContent {
+      padding: 20px;
+      font-family: '微软雅黑';
+      margin: 0 auto;
+      text-align: center;
+  }
+  .successsWindowContent p:nth-of-type(1) {
+      text-align: left;
+      color: #777777;
+      border-bottom: 1px dashed #777777;
+      padding: 10px 0;
+  }
+  .winBtn {
+      border: 1px solid #a6ca83;
+      background: #5fa020;
+      padding: 6px 20px;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 4px;
+      font-family: '微软雅黑';
+      margin-right: 5px;
+  }
+  #close {
+      float: right;
+  }
+  a, a:link, a:visited {
+      text-decoration: none;
+  }
+/*活动规则*/
+.rule {
+    border: 2px solid #ff2020;
+    background: #400101;
+    padding: 2%;
+    overflow: hidden;
+    margin-top: 2%;
+}
+.ruleTitle {
+    text-align: center;
+    width: 30%;
+    color: #ffd739;
+    border: 2px solid #ff2020;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.rule p {
+    line-height: 28px;
+    padding-bottom: 10px;
+    color:#ff8989
+}
+#view{ position: absolute;right: 5px;top: -30px; display: block; width: 70px;height: 70px;z-index: 1;}
+#view img{ width: 100%;}
+#ios-note{display: none;}
+#loading{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  z-index: 100;
+  display:block;
+}/*成功*/
